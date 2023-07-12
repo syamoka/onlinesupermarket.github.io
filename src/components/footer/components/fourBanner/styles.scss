@@ -1,0 +1,236 @@
+
+.fourBanner-container {
+  max-width: 1300px;
+  min-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.four-banner {
+  width: 100%;
+  min-width: 1000px;
+  background-color: #fff;
+
+  .marks {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 40px 0 40px;
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .marks span {
+    cursor: pointer;
+  }
+
+  .mark {
+    width: 230px;
+    height: 70px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #fff;
+    position: relative;
+    text-decoration: none;
+    border: 1px solid #ecf2f4;
+    padding: 20px 40px;
+    line-height: 20px;
+    color: #1f201e;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+
+    &:hover {
+      border-color: #056a35;
+
+      .banner-image {
+        -webkit-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+                transform: scale(1.1);
+        -webkit-transition: ease 0.3s;
+        -o-transition: ease 0.3s;
+        transition: ease 0.3s;
+        height: 44px;
+      }
+
+    }
+  }
+
+  .banner-image {
+    height: 44px;
+  }
+
+  .mark span {
+    font-size: 16px;
+    line-height: 18px;
+    margin-left: 40px;
+    font-weight: 500;
+  }
+
+  //  helper mark
+
+  .marks-nav {
+    position: fixed;
+    right: -140px;
+    bottom: 150px;
+    z-index: 2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background: none;
+    margin-bottom: 0px;
+    margin: 40px 0 40px;
+  }
+
+  .markk {
+    text-decoration: none;
+    width: 180px;
+    padding: 10px;
+    height: 35px;
+    position: relative;
+    border: 1px solid #ecf2f4;
+    background-color: #fff;
+
+    &:hover {
+      width: 220px;
+      -webkit-transform: scaleX(1.8);
+          -ms-transform: scaleX(1.8);
+              transform: scaleX(1.8);
+      -webkit-transition: ease-out 0.5s;
+      -o-transition: ease-out 0.5s;
+      transition: ease-out 0.5s;
+      border-color: #056a35;
+
+      .bannerImage {
+        width: 20px;
+        height: 30px;
+        margin-left: -5px;
+      }
+
+      .banner-title {
+        display: block !important;
+        margin-left: 25px;
+        font-size: 10px;
+        width: 70px;
+        color: #000;
+      }
+    }
+  }
+
+  .bannerImage {
+    position: absolute;
+    width: 40px;
+    height: 25px;
+  }
+
+  .banner-title {
+    display: none !important;
+    position: absolute;
+  }
+}
+
+.marks-fix {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 40px 0 40px;
+}
+
+.mark {
+  text-decoration: none;
+  border: 1px solid #ecf2f4;
+  width: 238px;
+  height: 60px;
+  padding: 20px 40px;
+  line-height: 20px;
+  color: #1f201e;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #fff;
+  position: relative;
+
+  &:hover {
+    border: 1px solid #056a35;
+
+    .banner-image {
+      -webkit-transition: ease 0.5s;
+      -o-transition: ease 0.5s;
+      transition: ease 0.5s;
+      -webkit-transform: scale(1.2);
+          -ms-transform: scale(1.2);
+              transform: scale(1.2);
+    }
+  }
+}
+
+.banner-image {
+  height: 44px;
+}
+
+.bannerTitle {
+  font-size: 16px;
+  line-height: 18px;
+  margin-left: 40px;
+  font-weight: 500;
+}
+
+.banner-title-in-resp {
+  display: none;
+}
+
+// desktop
+
+@media only screen and (min-width: 1024px) {
+  .fourBanner-parent{
+    display: block !important;
+  }
+ 
+}
+
+// tablet
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .fourBanner-parent{
+    display: none !important;
+  }
+
+  .marks-fix{
+    display: none !important;
+  } 
+  
+}
+
+// mobile
+@media only screen and (max-width: 768px) {
+  .fourBanner-parent{
+    display: none !important;
+  }
+
+  .marks-fix{
+    display: none !important;
+  } 
+  
+}

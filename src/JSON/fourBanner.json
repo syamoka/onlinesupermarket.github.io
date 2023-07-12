@@ -1,0 +1,30 @@
+
+[
+     {
+       "id": 1,
+       "title": "Առաքում և վճարում",
+       "image": "https://supermarket.am/images/footer_icon1.png",
+       "page": "deliveryPayment"
+      },
+  
+      {
+        "id": 2,
+        "title": "Հայաստանո՞ւմ չեք",
+        "image": "https://supermarket.am/images/footer_icon2.png",
+        "page": "abroad"
+      },
+  
+      {
+        "id": 3,
+        "title": " Նորություններ",
+        "image": "https://supermarket.am/images/footer_icon3.png",
+        "page": "news"
+      },
+  
+      {
+        "id": 4,
+        "title": "  Առաջարկներ և բողոքներ",
+        "image": "https://supermarket.am/images/footer_icon4.png",
+        "page": "SuggestAndComplaints"
+      }
+]

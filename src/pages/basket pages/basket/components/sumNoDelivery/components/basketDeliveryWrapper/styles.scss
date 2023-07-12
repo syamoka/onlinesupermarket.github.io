@@ -1,0 +1,57 @@
+
+.basket-delivery-wrapper {
+  width: 320px;
+  height: 92px;
+  margin: 0 0 0 11px;
+  background: #f9f9f9;
+  border-radius: 3px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  padding: 0 30px;
+
+  .basket-delivery {
+    font-size: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    text-align: left;
+    color: #0f6937;
+    font-family: Roboto;
+    font-style: normal;
+    margin-top: 12px;
+
+    .basket-delivery-icon {
+      width: 22px;
+      height: 20px;
+    }
+
+    .basket-delivery-title {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      width: calc(100% - 45px);
+      margin: 0;
+      font-size: 20px;
+      font-weight: 700
+    }
+  }
+
+  #freeDelivery {
+    width: 100%;
+    font-size: 14px;
+    margin-top: 12px;
+    text-align: left;
+    color: #0f6937;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+  }
+}

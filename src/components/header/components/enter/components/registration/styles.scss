@@ -1,0 +1,357 @@
+
+.registration-page {
+  width: 100%;
+  height: 100%;
+
+  .registration-section {
+    width: 100%;
+    min-height: 798px;
+    height: 100%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .registration {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+
+    .registration-inputs-parent {
+      zoom: 1;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      padding-top: 20px;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      position: relative;
+      max-width: 900px;
+      width: 100%;
+
+      label {
+        width: 300px;
+        padding: 10px;
+        color: #000;
+        line-height: 18px;
+        text-align: left;
+        font-size: 24px;
+        line-height: 1;
+      }
+
+      input {
+        width: 400px;
+        font-size: 18px;
+        height: 40px;
+        line-height: 40px;
+        padding: 0 48px;
+        border: 1px solid #d2d2d2;
+        border-radius: 2px;
+      }
+
+      .registr-tel-parent {  
+        width: 75px;
+        height: 40px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        position: relative;
+
+        &:focus {
+          .registr-tel-countries {
+            display: block !important;
+          }
+        }
+      }
+
+      .registr-arm-flag {
+        z-index: 1;
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        margin: 0 6px 0 85px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: rgba(0, 0, 0, 0.05);
+        }
+      }
+
+      .arm-flag-arrow {
+        border-top: none;
+        width: 15px;
+        height: 15px;
+      }
+
+      .registr-tel-countries {
+        display: none;
+        position: absolute;
+        z-index: 2;
+        list-style: none;
+        text-align: left;
+        padding: 0;
+        margin: 0 0 0 -1px;
+        -webkit-box-shadow: 1px 1px 4px rgb(0 0 0 / 20%);
+                box-shadow: 1px 1px 4px rgb(0 0 0 / 20%);
+        background-color: #fff;
+        border: 1px solid #ccc;
+        white-space: nowrap;
+        max-height: 200px;
+        overflow-y: scroll;
+        line-height: 18px;
+        font-size: 14px;
+        margin-bottom: 0;
+        color: #666666;
+        width: 425px;
+        height: 200px;
+      }
+
+      .registr-tel-list {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        padding: 5px 10px;
+        cursor: pointer;
+
+        &:hover {
+          background-color: rgba(0, 0, 0, 0.05);
+        }
+
+        img {
+          margin-right: 6px;
+        }
+
+        :nth-child(2) {
+          margin-right: 6px;
+        }
+      }
+
+      .registr-country-title {
+        width: 300px;
+        color: #000;
+        line-height: 18px;
+        text-align: left;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+
+        label {
+          font-size: 24px;
+          color: #333;
+        }
+
+        span {
+          font-size: 16px;
+          font-weight: bold;
+          color: #cd2004;
+          padding-left: 10px;
+        }
+      }
+
+      .registr-select-country {
+        width: 497px;
+        select {
+          font-size: 16px;
+          padding: 7px 15px;
+          width: 190px;
+          height: 36px;
+        }
+      }
+
+      .registr-select-birth {
+        width: 497px;
+        :nth-child(1) {
+          width: 72px;
+          font-size: 16px;
+          padding: 7px 15px;
+          height: 36px;
+          margin-right: 3px;
+        }
+
+        :nth-child(2) {
+          width: 150px;
+          font-size: 16px;
+          padding: 7px 15px;
+          height: 36px;
+          margin-right: 3px;
+        }
+
+        :nth-child(3) {
+          width: 90px;
+          font-size: 16px;
+          padding: 7px 15px;
+          height: 36px;
+        }
+      }
+
+      .registr-how-find-us {
+        width: 497px;
+        select {
+          font-size: 16px;
+          padding: 7px 15px;
+          height: 36px;
+        }
+      }
+
+      .registr-terms-and-conditions {
+        width: 350px;
+        height: 26px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: start;
+        text-align: left;
+        padding-left: 391px;
+
+        span input {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -webkit-box-align: c;
+              -ms-flex-align: c;
+                  align-items: c;
+          width: 40px;
+          height: 26px;
+          vertical-align: middle;
+          cursor: pointer;
+
+        }
+
+        label {
+          font-size: 16px;
+          cursor: pointer;
+          color: #000;
+          margin-right: 7px;
+          display: inline-block;
+          line-height: 24px;
+        }
+
+        a {
+          font-size: 18px;
+          line-height: 25px;
+          color: #056a35;
+
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+
+      .registr-buttons {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        height: 160px;
+        padding-left: 445px;
+      }
+
+      .already-registred {
+        position: relative;
+        right: 68px;
+        border-radius: 4px;
+        border: 1px solid #3d8247;
+        padding: 6px 30px;
+        border-radius: 4px;
+        line-height: 25px;
+        cursor: pointer;
+        margin-top: 30px;
+        margin-left: 50px;
+
+        &:hover {
+          -webkit-transition: #3d8247 ease 0.3s;
+          -o-transition: #3d8247 ease 0.3s;
+          transition: #3d8247 ease 0.3s;
+          background-color: #3d8247;
+          cursor: pointer;
+
+          label {
+            color: #fff;
+            cursor: pointer;
+          }
+        }
+
+        label {
+          font-size: 16px;
+          color: #3d8247;
+          text-transform: uppercase;
+        }
+      }
+
+      .to-registr {
+        position: relative;
+        right: 43px;
+        margin-top: 60px;
+        margin-left: 100px;
+
+        &:hover {
+          -webkit-transition: #056a35 ease 0.3s;
+          -o-transition: #056a35 ease 0.3s;
+          transition: #056a35 ease 0.3s;
+          opacity: 0.9;
+        }
+
+        a {
+          background-color: #056a35;
+          position: relative;
+          color: #fff;
+          text-align: center;
+          cursor: pointer;
+          font-size: 16px;
+          padding: 10px 30px;
+          border-radius: 4px;
+          border: none;
+          text-transform: uppercase;
+          line-height: 57px;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

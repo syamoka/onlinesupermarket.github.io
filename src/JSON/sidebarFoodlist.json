@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "icon": "https://supermarket.am/images/cache/f10/435/a2a848b83336ed4027aa197dff5902af.png",
+    "title": "Exclusive"
+  },
+  {
+    "id": 2,
+    "icon": "https://supermarket.am/images/cache/dd5/613/dc0d1b474c9243e541a4bf79becfe9d6.png",
+    "title": "Նորույթներ"
+  },
+  {
+    "id": 3,
+    "icon": "https://supermarket.am/images/cache/d55/ca5/5d47a358f3cd3d5820ce1c7c9347e2e7.png",
+    "title": "Տնտեսեք"
+  },
+  {
+    "id": 4,
+    "icon": "https://supermarket.am/images/cache/301/2e0/3f843f84e88b470b2c75f9c0b96cd4ea.png",
+    "title": "Էլեկտրոնիկա"
+  },
+  {
+    "id": 5,
+    "icon": "https://supermarket.am/images/cache/6ec/1d1/7dc7adc9c07ee510efbc349b71ed8278.png",
+    "title": "Ծաղիկներ"
+  },
+  {
+    "id": 6,
+    "icon": "https://supermarket.am/images/cache/0e3/b3c/f7c4bfbc89f09f088efa9a130b56a29b.png",
+    "title": "Հացաբուլկեղեն"
+  },
+  {
+    "id": 7,
+    "icon": "https://supermarket.am/images/cache/705/109/2d7cbf99f434b762dd2c970d1de44069.png",
+    "title": "Թարմ միս"
+  },
+  {
+    "id": 8,
+    "icon": "https://supermarket.am/images/cache/59d/e10/16f405cca428ae4a93afe76e34168925.png",
+    "title": "Կաթնամթերք և հավկիթ"
+  },
+  {
+    "id": 9,
+    "icon": "https://supermarket.am/images/cache/aac/e5e/ed6716e89cb041ee5ecc5c4ad867b57b.png",
+    "title": "Նպարեղեն"
+  },
+  {
+    "id": 10,
+    "icon": "https://supermarket.am/images/cache/3de/486/7b243a7ccd5989ecc3d5dbf605fe5fa9.png",
+    "title": "Քաղցրավենիք"
+  },
+  {
+    "id": 11,
+    "icon": "https://supermarket.am/images/cache/525/31e/d36b79ddd337dabadea69d1d7a432145.png",
+    "title": "Պաղպանակ"
+  },
+  {
+    "id": 12,
+    "icon": "https://supermarket.am/images/cache/750/546/da5245a3592e41e3945f4565ac647fb9.png",
+    "title": "Հյութեր և ըմպելիքներ"
+  },
+  {
+    "id": 13,
+    "icon": "https://supermarket.am/images/cache/b8e/7fc/4eda1ca22f8f17049d25311d5b90a0a0.png",
+    "title": "Սուրճ և թեյ"
+  },
+  {
+    "id": 14,
+    "icon": "https://supermarket.am/images/cache/6f4/53f/3a0c897ed3d9f888529f66a289ffd293.png",
+    "title": "Ալկոհոլային խմիչք"
+  },
+  {
+    "id": 15,
+    "icon": "https://supermarket.am/images/cache/906/8ad/8463e918db4529460e7d03f412a1006e.png",
+    "title": "Գարեջուր, խորտիկ"
+  },
+  {
+    "id": 16,
+    "icon": "https://supermarket.am/images/cache/b57/11b/c0768afa96936c1690182bdb35a7cd93.png",
+    "title": "Ծխախոտ"
+  },
+  {
+    "id": 17,
+    "icon": "https://supermarket.am/images/cache/36a/baa/e558efc69213083524f8e897aabedc76.png",
+    "title": "Մսամթերք"
+  },
+  {
+    "id": 18,
+    "icon": "https://supermarket.am/images/cache/254/df0/83436957f5511c793916f62a133ceaec.png",
+    "title": "Ասիական խոհանոց"
+  },
+  {
+    "id": 19,
+    "icon": "https://supermarket.am/images/cache/806/a32/c383619dbe06eecd4844e2381e7db18f.png",
+    "title": "Ձուկ և ծովամթերք"
+  },
+  {
+    "id": 20,
+    "icon": "https://supermarket.am/images/cache/14d/03a/4f73e7c4c0f7bc84ad6d53bfc73953b6.png",
+    "title": "Սառեցված մթերք"
+  },
+  {
+    "id": 21,
+    "icon": "https://supermarket.am/images/cache/1b1/385/3fc3788ed6f3208416186538dbb5d309.png",
+    "title": "Պահածո"
+  },
+  {
+    "id": 22,
+    "icon": "https://supermarket.am/images/cache/fe0/839/99854124117ad24be7099fc25975a120.png",
+    "title": "Բանջարեղեն և միրգ"
+  },
+  {
+    "id": 23,
+    "icon": "https://supermarket.am/images/cache/fe0/839/99854124117ad24be7099fc25975a120.png",
+    "title": "Մանկական սնունդ"
+  },
+  {
+    "id": 24,
+    "icon": "https://supermarket.am/images/cache/fe0/839/99854124117ad24be7099fc25975a120.png",
+    "title": "Առանց խոլեստերինի"
+  },
+  {
+    "id": 25,
+    "icon": "https://supermarket.am/images/cache/fe0/839/99854124117ad24be7099fc25975a120.png",
+    "title": "Դիաբետիկ մթերք"
+  },
+  {
+    "id": 24,
+    "icon": "https://supermarket.am/images/cache/fe0/839/99854124117ad24be7099fc25975a120.png",
+    "title": "Կենդանիների համար"
+  },
+  {
+    "id": 24,
+    "icon": "https://supermarket.am/images/cache/fe0/839/99854124117ad24be7099fc25975a120.png",
+    "title": "Բոլոր բաժինները"
+  }
+]

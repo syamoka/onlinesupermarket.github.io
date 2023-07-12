@@ -1,0 +1,124 @@
+.sumNoDelivery {
+  width: 100%;
+  padding: 0 0 17px 0;
+  font-size: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.sum-no-delivery-parent {
+  width: calc(100% - 580px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .order-amount {
+    font-size: 16px !important;
+    font-weight: normal !important;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+  }
+
+  .order-amount-prc {
+    color: #000000;
+    font-size: 16px !important;
+    font-weight: 500;
+  }
+
+  .delivery-amount-parent {
+    margin-top: -10px !important;
+  }
+
+  .delivery-amount {
+    font-size: 16px !important;
+    font-weight: normal !important;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+  }
+
+  .delivery-amount-prc {
+    color: #000000;
+    font-size: 16px !important;
+    font-weight: 500;
+  }
+
+  .full-amount-parent {
+    margin-top: 0px !important;
+  }
+
+  .full-amount {
+    font-size: 20px !important;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+  }
+
+  .full-amount-prc {
+    font-size: 20px !important;
+  }
+
+  .sumNoDelivery {
+    width: 100% !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .sum-no-delivery-parent {
+    width: 100% !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    border-top: 1px solid #ebebeb;
+    background-color: #ebebeb;
+    padding: 18px 9px;
+    margin-top: -40px;
+  }
+
+  .basket-delivery-wrapper {
+    width: 100% !important;
+    height: 80px !important;
+  }
+
+  .action-book {
+    position: relative;
+    display: block !important;
+    height: 48px !important;
+    font-size: 20px;
+    line-height: 48px !important;
+    font-weight: bold;
+    text-align: center;
+    background-color: #056a35;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    width: 100% !important;
+
+    a {
+      font-size: 20px !important;
+      font-weight: bold;
+    }
+  }
+}

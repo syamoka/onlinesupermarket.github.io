@@ -1,0 +1,80 @@
+
+.responsive-loginOne-title {
+  width: 100%;
+  background-color: #ebebeb;
+  font-weight: bold;
+  position: relative;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 20px 0 5px;
+}
+
+.responsive-loginOne-input-parent {
+  max-width: 440px;
+  width: 100%;
+  padding: 10px 10px 20px;
+}
+
+.responsive-loginOne-form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+
+  label {
+    margin: 8px 5px 0;
+    color: #00000070;
+    font-size: 15px;
+  }
+
+  input {
+    outline: none;
+    width: 100%;
+    font-weight: bold;
+    height: 48px;
+    border-radius: 2px;
+    padding: 0 8px;
+    position: relative;
+    vertical-align: top;
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    font: 16px Arial, Helvetica, sans-serif;
+  }
+}
+
+.responsive-loginOne-btn {
+  text-decoration: none;
+  background-color: #056a35;
+  color: #fff;
+  position: relative;
+  display: block;
+  height: 48px;
+  font-size: 20px;
+  line-height: 48px;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  border: none;
+  border-radius: 4px;
+  margin-top: 20px;
+}

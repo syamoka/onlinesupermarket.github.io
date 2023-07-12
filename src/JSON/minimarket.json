@@ -1,0 +1,118 @@
+[
+    {
+       "id": 1,
+       "image": "https://supermarket.am/upload/iblock/5fc/5fcc8d6454e80a130453fc745cd11e1c.jpg",
+       "category": "onlinesweet"
+    },
+
+    {
+        "id": 2,
+        "image": "https://supermarket.am/upload/iblock/6d6/6d6531634c89a659f34fdce27bd10af2.png",
+        "category": "mars"
+   },
+    
+
+     {
+        "id": 3,
+        "image": "https://supermarket.am/upload/iblock/437/437a1d3d06b8804467acff79fe7ea058.png"
+     },
+
+     {
+        "id": 4,
+        "image": "https://supermarket.am/upload/iblock/ab0/ab01c4ee6f615486729e88d702a6d713.png"
+     },
+
+
+    {
+       "id": 5,
+       "image": "https://supermarket.am/upload/iblock/c82/c8229ff31657f18238dee9583829f3b9.png"
+    },
+
+
+    {
+        "id": 6,
+        "image": "https://supermarket.am/upload/iblock/22c/22c53188db1994e4dc977b8014bd068e.png"
+     },
+
+     {
+        "id": 7,
+        "image": "https://supermarket.am/upload/iblock/9a2/9a20959573d24a4133bba5ddf2eb0f35.png"
+     },
+
+
+     {
+        "id": 8,
+        "image": "https://supermarket.am/upload/iblock/e70/e70fb39e683d6a92c978a05aeacf0cb8.png"
+     },
+
+     {
+        "id": 9,
+        "image": "https://supermarket.am/upload/iblock/9e7/9e749936a50f928638d6cbec4cbe2e9d.png"
+     },
+
+
+     {
+        "id": 10,
+        "image": "https://supermarket.am/upload/iblock/2f1/2f1958e01f73f1696d22309de0ea5c9c.png"
+     },
+
+
+     {
+        "id": 11,
+        "image": "https://supermarket.am/upload/iblock/51f/51f5a87defc4d4f59313f1532bf88d9b.jpg"
+     },
+
+
+     {
+        "id": 12,
+        "image": "https://supermarket.am/upload/iblock/984/9840224ba47dd3b3a352168197bbfe7a.png"
+     },
+
+     {
+        "id": 13,
+        "image": "https://supermarket.am/upload/iblock/698/698863979c0bbc97ab6a6f05e5082885.jpg"
+     },
+
+     {
+        "id": 14,
+        "image": "https://supermarket.am/upload/iblock/aa1/aa15d20214954c3e126b090b349fb15d.png"
+     },
+
+     {
+        "id": 15,
+        "image": "https://supermarket.am/upload/iblock/a70/a7070006db0d3b27c0832ff9a40c11db.jpg"
+     },
+
+     {
+        "id": 16,
+        "image": "https://supermarket.am/upload/iblock/2df/2dff8bf69cb6a380554efd505ceb2829.jpg"
+     },
+
+
+     {
+        "id": 17,
+        "image": "https://supermarket.am/upload/iblock/dc8/dc8f90d6964356a9736dcd65f21765c6.png"
+     },
+
+
+     {
+        "id": 18,
+        "image": "https://supermarket.am/upload/iblock/ecc/eccbdea2d3da4cc24e4a1fd9143e2547.jpg"
+     },
+
+
+     {
+        "id": 19,
+        "image": "https://supermarket.am/upload/iblock/e5d/e5d8342dc6bb141bc78329a98ab01ab4.jpg"
+     },
+
+     {
+        "id": 20,
+        "image": "https://supermarket.am/upload/iblock/680/680a3b13037148cb1c3fa49b824e5ba0.jpg"
+     },
+
+     {
+        "id": 21,
+        "image": "https://supermarket.am/upload/iblock/ecc/eccbdea2d3da4cc24e4a1fd9143e2547.jpg"
+     }
+]

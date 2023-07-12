@@ -1,0 +1,116 @@
+
+.product-workCount {
+  display: block;
+}
+
+.product-price-container {
+  position: relative;
+  max-width: 1300px;
+  width: 100%;
+  min-height: 75px;
+  height: 100%;
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  left: auto;
+  right: 3px;
+  padding: 0;
+  z-index: 1;
+  top: 2px;
+
+  .price-normal {
+    height: 45px;
+    margin: 13px 0 20px;
+    padding-right: 25px;
+  
+    span {
+      display: block;
+      padding: 10px 0;
+    }
+    span {
+      color: #d32524;
+      font-size: 28px;
+      text-align: left;
+    }
+  }
+}
+
+.product-controlButton {
+  margin-top: 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  align-items: center;
+
+  span {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #e6e6e6;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    cursor: pointer;
+
+    img{
+      padding: 2px;
+      width: 30px;
+      height: 30px;
+    }
+
+    &:hover{
+      background-color: #f5db00;
+    }
+  }
+
+  input {
+    width: 100px;
+    margin: 0 5px;
+    padding: 0 10px;
+    line-height: 28px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #e6e6e6;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+
+.product-addbtn {
+  position: static;
+  -ms-flex-preferred-size: 120px;
+      flex-basis: 120px;
+
+  input {
+    width: 170px;
+    height: 34px;
+    border-radius: 2px;
+    padding: 5px 20px;
+    color: #fff;
+    font-size: 18px;
+    background-color: #128247;
+    border: none;
+    cursor: pointer;
+  }
+}

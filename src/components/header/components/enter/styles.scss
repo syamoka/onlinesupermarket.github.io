@@ -1,0 +1,236 @@
+
+.enter {
+  position: relative;
+  line-height: 38px;
+
+  .enter-head {
+    width: 180px;
+    height: 38px;
+    color: #fff;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #056a35;
+    }
+  }
+
+  .enter-head-parent {
+    width: 138px;
+    height: 38px;
+    padding: 0 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+
+    img {
+      position: relative;
+      left: -4px;
+      top: 3px;
+    }
+    span {
+      margin-top: 5px;
+    }
+  }
+
+  .enter-body {
+    width: 290px;
+    position: absolute;
+    background-color: #191919;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    z-index: 2;
+    text-align: center;
+    top: 37px;
+    right: 0;
+    left: auto;
+  }
+
+  .enter-body-parent {
+    img {
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+      position: absolute;
+      right: 9px;
+      top: 5px;
+      opacity: 0.5;
+      -webkit-transition: opacity 0.3s;
+      -o-transition: opacity 0.3s;
+      transition: opacity 0.3s;
+      left: auto;
+    }
+
+    .enter-form-ul {
+      width: 100%;
+      list-style: none;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+    }
+
+    .enter-form-list {
+      background: none;
+      padding: 0 0px;
+      height: auto;
+      line-height: normal;
+      width: 290px;
+      height: 57px;
+
+      label {
+        padding-right: 55px;
+        color: #fff;
+      }
+    }
+
+    .enter-input-parent {
+      overflow: hidden;
+      max-width: 211px;
+      width: 100%;
+
+      input {
+        border: 1px solid #aaa;
+        background: #fff;
+        width: 211px;
+        padding: 7px 15px;
+        outline: none;
+      }
+    }
+
+    .enter-form-submit {
+      overflow: hidden;
+      max-width: 211px;
+      width: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+    }
+
+    .enter-submit {
+      background-color: #056a35;
+      padding: 10px 30px;
+      color: #fff;
+      margin-bottom: 10px;
+      font-weight: 500;
+      text-align: center;
+      font-size: 16px;
+      border-radius: 4px;
+      border: none;
+      text-transform: uppercase;
+      max-width: 211px;
+      width: 100%;
+      height: 40px;
+      cursor: pointer;
+
+      &:hover {
+        -webkit-transition: all ease 0.3s;
+        -o-transition: all ease 0.3s;
+        transition: all ease 0.3s;
+
+      }
+    }
+
+    .enter-form-forgetten-password {
+      font-size: 13px;
+      padding: 0 15px;
+      border: 1px solid #191919;
+      border-radius: 5px;
+      color: #fff;
+      text-decoration: none;
+      width: 185px;
+      height: 40px;
+      cursor: pointer;
+      margin-right: 75px;
+
+      &:hover {
+        background-color: #056a35;
+        border: 1px solid #fff;
+      }
+    }
+
+    .registr {
+      font-size: 13px;
+      padding: 0 15px;
+      border: 1px solid #191919;
+      border-radius: 5px;
+      color: #fff;
+      text-decoration: none;
+      width: 65px;
+      height: 40px;
+      cursor: pointer;
+      margin-right: 75px;
+
+      &:hover {
+        background-color: #056a35;
+        border: 1px solid #fff;
+      }
+    }
+  }
+}
+
+// desktop
+@media only screen  and (min-width: 1024px) {
+  .enter-head-parent span{
+    display: block;
+  }
+
+  .enter-head{
+    margin-right: -100px;
+  }
+
+  .enter-body{
+    display: none;
+  }
+}
+
+// tablet
+@media screen  and (min-width: 768px)  and (max-width: 1023px){
+  .enter-head-parent span{
+    display: none;
+  }
+
+  .enter-head{
+    margin-right: -100px;
+  }
+
+  .enter-body{
+    display: none;
+  }
+}
+
+// mobile
+
+@media only screen  and (max-width: 767px){
+  .enter-head-parent span{
+    display: none;
+  }
+
+  .enter-head{
+    margin-right: -100px;
+  }
+
+  .enter-body{
+    display: none;
+  }
+}

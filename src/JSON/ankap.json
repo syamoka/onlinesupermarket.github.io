@@ -1,0 +1,85 @@
+[
+    {
+        "Տնտեսեք": {
+            "Տնտեսական ապրանքներ": {
+                "Մաքրող միջոցներ": [
+                    {
+                        "name": "Սպիտակեցնող նյութ «Deschlor» 1.1կգ",
+                        "id": "otbelivatel-deschlor-belizna-1-1kg-pl-butylka-_89619",
+                        "image": "https://supermarket.am/images/cache/b67/ec4/trim_835510a2131e30e2cca82abe9a5efd8d.JPG",
+                        "price": 390,
+                        "count": 1,
+                        "class": "Տնտեսական ապրանքներ",
+                        "description": "Մաքրող հեղուկ",
+                        "madeIn": "Հայաստան",
+                        "brand": "Deschlor",
+                        "productCode": 989817,
+                        "productID": 89619,
+                        "category": "topsale",
+                        "storageMethod": "Պահել մութ և չոր տեղում: 5-20 °C պայմաններում:"
+                    },
+                    {
+                        "name": "Ժավել-գել 1լ",
+                        "id": "zhavel-gel-1l_278995",
+                        "image": "https://supermarket.am/images/cache/03e/ec2/trim_2a9aa2de41f1c940d1582c04251efeac.JPG",
+                        "price": 720,
+                        "count": 1,
+                        "class": "Տնտեսական ապրանքներ",
+                        "description": "Ժավել-գել",
+                        "madeIn": "Հայաստան",
+                        "brand": "Deschlor",
+                        "productCode": 167170,
+                        "productID": 278995,
+                        "category": "topsale",
+                        "storageMethod": "Պահել մութ և չոր տեղում: 5-20 °C պայմաններում:"
+                    },
+                    {
+                        "name": "սպիտակեցնող նյութ «Белизна» 1լ",
+                        "id": "679926",
+                        "image": "https://supermarket.am/images/cache/2e8/133/trim_2e337b327ae0699947f6493a3c882802.JPG",
+                        "price": 310,
+                        "count": 1,
+                        "class": "Տնտեսական ապրանքներ",
+                        "description": "Սպիտակեցնող նյութ",
+                        "madeIn": "Հայաստան",
+                        "brand": "Белизна",
+                        "productCode": 286534,
+                        "productID": 679926,
+                        "category": "novelty",
+                        "storageMethod": "Պահել մութ և չոր տեղում: 5-20 °C պայմաններում:"
+                    },
+                    {
+                        "name": "Զուգարանի թուղթ «Papia» 32 հատ",
+                        "id": "1079528",
+                        "image": "https://supermarket.am/images/cache/78a/aac/trim_d3c2505c8dbf470b85170ed957fe9c95.JPG",
+                        "price": 5200,
+                        "count": 1,
+                        "class": "Տնտեսական ապրանքներ",
+                        "description": "Զուգարանի թուղթ՝ բամբակի էքստրակտով, 3 շերտ, 95*120 մմ, 140 թերթ:",
+                        "madeIn": "Ռուսաստան",
+                        "brand": "Papia",
+                        "productCode": 293317,
+                        "productID": 1079528,
+                        "category": "novelty",
+                        "storageMethod": "Պահել մութ և չոր տեղում: 5-20 °C պայմաններում:"
+                    },
+                    {
+                        "name": "Հեղուկ օճառ «Teo Pure Aquamarine» 400գ",
+                        "id": "mylo-zhidkoe-teo-aquamarine-400ml-s-dozatorom-_435258",
+                        "image": "https://supermarket.am/images/cache/3bc/19d/trim_ac675642fb76fad5571df7ed1c55b9b9.jpg",
+                        "price": 710,
+                        "count": 1,
+                        "class": "Տնտեսական ապրանքներ",
+                        "description": "Հեղուկ օճառ",
+                        "madeIn": "Բուլղարիա",
+                        "brand": "Teo",
+                        "productCode": 218958,
+                        "productID": 435258,
+                        "category": "save",
+                        "storageMethod": "Պահել մութ և չոր տեղում: 5-20 °C պայմաններում:"
+                    }
+                ]
+            }
+        }
+    }
+]

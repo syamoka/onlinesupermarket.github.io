@@ -1,0 +1,51 @@
+.currency {
+  max-width: 133px;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  line-height: 38px;
+  position: relative;
+  vertical-align: baseline;
+}
+
+.currency:hover {
+  background-color: #056a35;
+}
+
+.currency:hover .currency-dropdown-menu {
+  display: block;
+}
+
+.currency .currency-dropdown-toggle {
+  text-decoration: none;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.currency .dropdown-arrow {
+  width: 10px;
+  height: 10px;
+}
+
+.currency .currency-dropdown-menu {
+  background-color: red;
+  position: absolute;
+  top: 38px;
+  z-index: 3;
+  width: 100%;
+}
+/*# sourceMappingURL=styles.css.map */

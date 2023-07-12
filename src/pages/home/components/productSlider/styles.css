@@ -1,0 +1,218 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.productSlider-section {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.productSlider-section .mySwiper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.productSlider-section .swiper-item {
+  width: 200px;
+  height: 370px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 1px solid #e6e6e6;
+  cursor: pointer;
+}
+
+.productSlider-section .swiper-item:hover {
+  border: 1px solid #056a35;
+}
+
+.productSlider-section .heart-item {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: auto;
+  background: url(".././../../../assets/topSale-images/heart.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  z-index: 1;
+  opacity: 0.3;
+}
+
+.productSlider-section .swiper-item-link {
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+.productSlider-section .item-img {
+  width: 140px;
+  min-height: 120px;
+  -webkit-transition: ease 0.5;
+  transition: ease 0.5;
+  border: none;
+  -webkit-transition: 0.5 ease;
+  transition: 0.5 ease;
+}
+
+.productSlider-section .item-img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.productSlider-section .item-name {
+  color: #191919;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+.productSlider-section .item-name:hover {
+  color: #056a35;
+  opacity: 7;
+}
+
+.productSlider-section .item-price {
+  margin-top: 50px;
+}
+
+.productSlider-section .price-container {
+  text-align: center;
+}
+
+.productSlider-section .price {
+  color: #d32524;
+}
+
+.productSlider-section .money-input-parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+.productSlider-section .controlbtn {
+  height: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.productSlider-section .toCount {
+  width: 43px;
+  height: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  padding: 0 10px;
+  margin: 0 2px;
+  border: 1px solid #e6e6e6;
+  outline: none;
+}
+
+.productSlider-section .minusIcon {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #e6e6e6;
+  background-color: #fff;
+}
+
+.productSlider-section .minusIcon:hover {
+  background-color: yellow;
+  cursor: pointer;
+}
+
+.productSlider-section .plusIcon {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #e6e6e6;
+}
+
+.productSlider-section .plusIcon:hover {
+  background-color: yellow;
+  cursor: pointer;
+}
+
+.productSlider-section .add-parent {
+  margin-top: 10px;
+}
+
+.productSlider-section .add-parent:hover {
+  opacity: 0.9;
+}
+
+.productSlider-section .add-button {
+  min-width: 130px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+  padding: 7px 28px;
+  margin: 0 auto;
+  background-color: #056a35;
+  border: none;
+  cursor: pointer;
+}
+
+.productSlider-section .swiper-button-prev {
+  width: 28px;
+  height: 60px;
+  left: 3;
+  margin-top: -30px;
+  background-color: #ccc;
+  color: #fff;
+  margin-left: -3px;
+}
+
+.productSlider-section .swiper-button-next {
+  width: 28px;
+  height: 60px;
+  left: 3;
+  margin-top: -30px;
+  background-color: #ccc;
+  color: #fff;
+}

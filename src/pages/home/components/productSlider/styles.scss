@@ -1,0 +1,304 @@
+
+
+@import "../../../../variable/variable.scss";
+
+// swiper defauls styles from swipper js website
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+// other styles
+
+.productSlider-section {
+  width: 100%;
+  margin-top: 20px;
+
+  .mySwiper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+    height: 415px !important;
+    border-top: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+    min-height: 415px;
+    position: relative;
+  }
+
+  .swiper-item {
+    width: 194px !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    border: 1px solid #e6e6e6;
+    cursor: pointer;
+
+    &:hover {
+      border: 1px solid #056a35;
+
+      .item-img {
+        -webkit-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+                transform: scale(1.1);
+        -webkit-transition: ease 0.5s;
+        -o-transition: ease 0.5s;
+        transition: ease 0.5s;
+      }
+    }
+  }
+
+  .heart-item1 {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: auto;
+    background: url(".././../../../assets/topSale-images/heart.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 1;
+    opacity: 0.3;
+  }
+
+  .heart-item2 {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: auto;
+    background: url(".././../../../assets/topSale-images/heart1.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 1;
+    opacity: 0.3;
+  }
+
+  .swiper-item-link {
+    text-decoration: none;
+  }
+
+  .item-img-parent {
+    min-height: 130px;
+    margin-top: 20px;
+
+    .item-img {
+      width: 60px;
+      min-height: 120px;
+      -webkit-transition: ease 0.5;
+      -o-transition: ease 0.5;
+      transition: ease 0.5;
+      border: none;
+    }
+  }
+
+  .item-name {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 15px 6px 0;
+    line-height: 18px;
+    height: 55px;
+    color: #191919;
+    padding: 0 1px;
+
+    &:hover {
+      color: #056a35;
+      opacity: 7;
+    }
+  }
+
+  .item-price {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .price-container {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .price {
+    color: #d32524;
+    font-size: 15px;
+  }
+
+  .money-input-parent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 10px;
+  }
+
+  .controlbtn {
+    height: 30px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .toCount {
+    width: 43px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    padding: 0 10px;
+    margin: 0 2px;
+    border: 1px solid #e6e6e6;
+    outline: none;
+  }
+
+  .minusIcon {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #e6e6e6;
+    background-color: #fff;
+
+    &:hover {
+      background-color: yellow;
+      cursor: pointer;
+    }
+  }
+
+  .plusIcon {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #e6e6e6;
+
+    &:hover {
+      background-color: yellow;
+      cursor: pointer;
+    }
+  }
+
+  .add-parent {
+    margin-top: 10px;
+
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+
+  .add-button {
+    min-width: 130px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    padding: 7px 28px;
+    margin: 0 auto;
+    background-color: #056a35;
+    border: none;
+    cursor: pointer;
+  }
+
+  .swiper-button-prev {
+    @include swiper-button-prev-next-parent();
+    margin-left: -3px;
+  }
+
+  .swiper-button-next {
+    @include swiper-button-prev-next-parent();
+  }
+
+  .add-to-basket-parent {
+    background: #fff9ae;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    height: 30px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .add-to-basket {
+    display: block;
+    line-height: 16px;
+    margin: 0 auto;
+    font-size: 13px;
+    width: 100%;
+    text-decoration: none;
+    color: #000;
+  }
+
+  .inBasket {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 30px;
+
+    .quantity {
+      line-height: 30px;
+      width: 100%;
+    }
+
+    .del {
+      background-color: #ddd;
+      color: #056a35;
+    }
+
+    .del-icon {
+      width: 33px;
+      height: 30px;
+      color: #191919;
+      padding: 6px;
+    }
+  }
+
+  .swiper-pagination{
+    display: none;
+  }
+}

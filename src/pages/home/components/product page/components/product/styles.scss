@@ -1,0 +1,67 @@
+/*
+* Prefixed by:
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+
+.product-image {
+  position: relative;
+  width: 300px;
+
+  .productImg {
+    width: 280px;
+  }
+}
+
+.product-details {
+  width: calc(100% - 320px);
+  margin: 20px 15px 0 10px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.product-heartIcon {
+  background-size: contain;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: auto;
+  right: 3px;
+  padding: 0;
+  z-index: 1;
+  opacity: 0.3;
+  top: 2px;
+}
+
+.product-category {
+  color: #056a35;
+  text-decoration: none;
+  line-height: 14px;
+  padding: 5px 10px;
+  margin-bottom: 15px;
+  background: #ecf2f4;
+  border: 1px solid #ecf2f4;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 3px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.product-description {
+  line-height: 18px;
+  font-size: 14px;
+  margin-bottom: 0;
+  color: #666666;
+}

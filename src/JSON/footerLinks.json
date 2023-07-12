@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "title": "Supermarket.am-ի մասին",
+        "page": "/about"
+    },
+    {
+        "id": 2,
+        "title": "Թափուր աշխատատեղեր",
+        "page": "/vacancy"
+    },
+    {
+        "id": 3,
+        "title": "Հաճախորդների կարծիքներ",
+        "page": "/feedback"
+    },
+    {
+        "id": 4,
+        "title": "Կապ",
+        "page": "/contact"
+    },
+    {
+        "id": 5,
+        "title": "Օգտագործողի ուղեցույց",
+        "page": "/userGuide"
+    },
+    {
+        "id": 6,
+        "title": "Հաճախակի տրվող հարցեր",
+        "page": "/FAQ"
+    },
+    {
+        "id": 7,
+        "title": "Առաքում և վճարում",
+        "page": "/deliveryPayment"
+    },
+    {
+        "id": 8,
+        "title": "Գնումներ արտերկրից",
+        "page": "/abroad"
+    }
+]

@@ -1,0 +1,32 @@
+
+
+@mixin main-sections-styles {
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+}
+
+@mixin main-sections-title {
+    font-size: 21px;
+    font-weight: bold;
+    font-family: normal Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@mixin showAll {
+    color: #056a35;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: -30px;
+}
+
+@mixin swiper-button-prev-next-parent {
+    width: 28px;
+    height: 60px;
+    margin-top: -30px;
+    background-color: #ccc;
+    color: #fff;
+   
+}

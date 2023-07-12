@@ -1,0 +1,68 @@
+.delivery-payment-page {
+  .delivery-page {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .delivery-page h1 {
+    font-size: 37px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    border-bottom: 1px solid #e4e4e4;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .static-page {
+    .title {
+      font-size: 30px;
+      font-weight: 600;
+      font-family: Sylfaen, serif;
+      color: black;
+      text-align: center;
+    }
+
+    .delivery1 {
+      font-size: 20px;
+      font-weight: bold;
+      font-family: Sylfaen, serif;
+      color: black;
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: 20px;
+    }
+
+    .delivery-titles {
+      color: rgb(17, 17, 17);
+      font-size: large;
+      font-weight: bold;
+      font-family: Tahoma;
+      text-align: center;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+
+    .title2 {
+      margin-bottom: 20px;
+    }
+
+    p {
+      text-align: justify;
+      text-indent: -0.25in;
+      line-height: 18px;
+      font-size: 14px;
+      line-height: 18px;
+      margin: 0in 0in 0.0001pt 0.25in;
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .delivery-page {
+    max-width: 300px;
+    width: 100%;
+  }
+}

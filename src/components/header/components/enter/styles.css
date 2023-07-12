@@ -1,0 +1,28 @@
+.enter {
+  max-width: 200px;
+  width: 100%;
+  line-height: 38px;
+  cursor: pointer;
+}
+
+.enter:hover {
+  background-color: #056a35;
+}
+
+.enter .head-parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+
+.enter .personIcon {
+  margin-right: 10px;
+}
+/*# sourceMappingURL=styles.css.map */

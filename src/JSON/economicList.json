@@ -1,0 +1,92 @@
+
+[
+    {
+        "id": 1,
+        "icon": "https://supermarket.am/images/cache/9d7/7ef/71994ddebf3decaca7bac69c390ef9fe.png",
+        "title": "Exclusive"
+    },
+
+    {
+        "id": 2,
+        "icon": "https://supermarket.am/images/cache/4c4/f21/094df883ec93e904a9f86c9eea51ce16.png",
+        "title": "Տնտեսական ապրանքներ"
+    },
+
+    {
+        "id": 3,
+        "icon": "https://supermarket.am/images/cache/0ea/b14/5959011956326be200cd97a28b161543.png",
+        "title": "Սպասք"
+    },
+
+    {
+        "id": 4,
+        "icon": "https://supermarket.am/images/cache/6ec/1d1/7dc7adc9c07ee510efbc349b71ed8278.png",
+        "title": "Հիգիենայի միջոցներ"
+    },
+
+    {
+        "id": 5,
+        "icon": "https://supermarket.am/images/cache/cf3/33b/c67d55bbcaba3619ecaa8533334a0cf1.png",
+        "title": "Կոսմետիկա"
+    },
+
+    {
+        "id": 6,
+        "icon": "https://supermarket.am/images/cache/cd2/e19/22a70164dfde9bb28b5c52935495db18.png",
+        "title": "Նվերներ"
+    },
+
+    {
+        "id": 7,
+        "icon": "https://supermarket.am/images/cache/799/652/dafc3405995e34252436738e0cb1ba2c.png",
+        "title": "Գրքեր"
+    },
+
+    {
+        "id": 8,
+        "icon": "https://supermarket.am/images/cache/6e8/a05/cf5e27b1cce13c910aac4e90a4df4af7.png",
+        "title": "Խաղալիքներ"
+    },
+
+    {
+        "id": 9,
+        "icon": "https://supermarket.am/images/cache/fd6/d2a/d2c4a30b8d31f0414ae12d6558039d9a.png",
+        "title": "Գալանտերեա"
+    },
+
+    {
+        "id": 10,
+        "icon": "https://supermarket.am/images/cache/550/c46/af44a595adff007076f1eaee92f45364.png",
+        "title": "Տոն"
+    },
+
+    {
+        "id": 11,
+        "icon": "https://supermarket.am/images/cache/1f9/6f1/6ba858e60632a73a540dd9e564f887b9.png",
+        "title": "Գրենական պարագաներ"
+    },
+
+    {
+        "id": 12,
+        "icon": "https://supermarket.am/images/cache/e8b/9f3/e7eca44127ecca1b592e93780f93ee20.png",
+        "title": "Էլեկտրական ապրանք"
+    },
+
+    {
+        "id": 13,
+        "icon": "https://supermarket.am/images/cache/3a8/d16/3c3ff15e0ab68d47a74aef3adfa7eed3.png",
+        "title": "Խաղաքարտեր"
+    },
+
+    {
+        "id": 14,
+        "icon": "https://supermarket.am/images/cache/18a/91e/0337f0f30d14b1ad55a41ea04f509262.png",
+        "title": "Երեխաների համար"
+    },
+
+    {
+        "id": 15,
+        "icon": "",
+        "title": "Բոլոր բաժինները"
+    }
+]

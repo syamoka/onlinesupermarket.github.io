@@ -1,0 +1,33 @@
+
+
+@import "../../../../variable/variable.scss";
+
+.save-section {
+  @include main-sections-styles();
+}
+
+.save-section-title {
+  @include main-sections-title();
+}
+
+.showAll {
+  @include showAll();
+}
+
+@media only screen and (min-width: 1024px) {
+  .save-section{
+      display: block;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .save-section{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+  .save-section{
+      display: none;
+  }
+}

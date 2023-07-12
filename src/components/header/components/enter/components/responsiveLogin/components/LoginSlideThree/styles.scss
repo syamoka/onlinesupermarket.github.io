@@ -1,0 +1,83 @@
+/*
+* Prefixed by:
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+.login-slide-three {
+  margin-top: 20px;
+}
+
+.login-slide-three-title {
+  text-decoration: none;
+  width: 100%;
+  background-color: #ebebeb;
+  font-weight: bold;
+  position: relative;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 20px 0 5px;
+  text-align: left;
+  color: #000;
+}
+
+.login-slide-three-text {
+  padding: 20px;
+}
+
+.login-slide-three-form {
+  padding: 0 20px;
+
+  label {
+    display: block;
+    margin: 8px 5px 0;
+    color: #00000070;
+    font-size: 15px;
+  }
+
+  input {
+    width: 100%;
+    font-weight: bold;
+    height: 48px;
+    position: relative;
+    vertical-align: top;
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    border-radius: 2px;
+    padding: 0 8px;
+  }
+}
+
+.login-slide-three-btn {
+  border-radius: 4px;
+  border: none;
+  text-transform: uppercase;
+  line-height: 27px;
+  min-width: 96px;
+  background-color: #056a35;
+  position: relative;
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 6px 30px;
+  margin-top: 20px;
+
+  &:hover {
+    -webkit-transition: ease 0.3s #056a35;
+    -o-transition: ease 0.3s #056a35;
+    transition: ease 0.3s #056a35;
+  }
+}

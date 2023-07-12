@@ -1,0 +1,408 @@
+.footer-block-container {
+  background: #ededed;
+  width: 100%;
+  zoom: 1;
+}
+
+.footer-block {
+  padding: 36px 0;
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-menu {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (270px) 2;
+      grid-template-columns: repeat(2, 270px);
+  -ms-grid-rows: (30px)4;
+      grid-template-rows: repeat(4, 30px);
+}
+
+.footer-links {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-alinks {
+  text-decoration: none;
+  color: #000000;
+  margin-right: 7px;
+  font-size: 14px;
+
+  &:hover {
+    color: #056a35;
+    margin-right: 7px;
+    font-size: 14px;
+  }
+}
+
+.footer-right-links-parent {
+  width: 210px;
+}
+
+.footer-right-links {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-my-contact {
+  color: #000000;
+  font-weight: bold !important;
+  font-size: 16px;
+}
+.footer-menu-phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-bottom: 11px;
+  width: 100%;
+  min-width: 1000px;
+}
+
+.footer-links-phone {
+  margin-top: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #000000;
+
+  &:hover {
+    color: #588d6c;
+  }
+}
+
+.footer-links-social {
+  width: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-banner {
+  width: 360px;
+  height: 205px;
+  position: relative;
+  background: #118833;
+  background: -webkit-linear-gradient(bottom, #118833 0%, #b4b323 50%, #ffcc00 100%);
+  background: linear-gradient(0deg, #118833 0%, #b4b323 50%, #ffcc00 100%);
+  border-radius: 18px;
+}
+
+.footer-banner-logo {
+  background: url("https://supermarket.am/images/logo_w.svg");
+  width: 203px;
+  height: 45px;
+  position: absolute;
+  top: 15px;
+  left: 13px;
+}
+
+.footer-banner-phone {
+  background: transparent url("https://supermarket.am/images/phones.png") scroll
+    no-repeat -97px -3px;
+  width: 232px;
+  height: 175px;
+  right: 70px;
+  position: absolute;
+  bottom: 0;
+  background-size: 330px;
+}
+
+.footer-banner-android {
+  background: url("https://supermarket.am/images/android.png");
+  position: absolute;
+  left: 13px;
+  top: 90px;
+  width: 106px;
+  height: 34px;
+  background-size: 106px;
+}
+
+.footer-banner-ios {
+  background: url("https://supermarket.am/images/ios.png");
+  position: absolute;
+  left: 13px;
+  top: 141px;
+  width: 106px;
+  height: 34px;
+  background-size: 106px;
+}
+
+.footer-menu-resp {
+  display: none;
+  list-style: none;
+  width: 100%;
+  text-align: left;
+
+  li {
+    width: 100% !important;
+    margin-bottom: 10px;
+  }
+
+  li a {
+    font-size: 16px;
+    color: #000000;
+    cursor: pointer;
+    text-decoration: none;
+  }
+}
+
+.footer-resp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-right-parent{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-banner-logo{
+  width: 203px;
+  height: 45px;
+  position: absolute;
+  top: 15px;
+  left: 13px;
+}
+
+.footer-banner-phone{
+  width: 232px;
+    height: 175px;
+    right: 0;
+    position: absolute;
+    bottom: 0;
+    background-size: 330px;
+}
+
+.footer-banner-android{
+  position: absolute;
+    left: 13px;
+    top: 90px;
+    width: 106px;
+    height: 34px;
+    background-size: 106px;
+}
+
+.footer-banner-ios{
+  position: absolute;
+    left: 13px;
+    top: 141px;
+    width: 106px;
+    height: 34px;
+    background-size: 106px;
+}
+
+
+// tablet
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .footer-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    padding: 28px 24px;
+  }
+  .footer-right-links-parent {
+    width: 100%;
+    ul {
+      width: 100%;
+    }
+  }
+  .footer-menu {
+    display: none;
+  }
+
+  .footer-resp {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+
+  
+  .footer-right-parent{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  
+  .footer-banner {
+    min-width: 270px;
+    width: 95% !important;
+    height: 155px;
+    position: relative;
+    border-radius: 14px;
+    margin-bottom: 19px;
+
+    .footer-banner-logo {
+      width: 150px;
+      height: 30px;
+      position: absolute;
+      top: 12px;
+      left: 13px;
+      background-size: 150px;
+    }
+
+    .footer-banner-phone {
+      width: 175px;
+      height: 135px;
+      right: 0;
+      position: absolute;
+      bottom: 0;
+      background-size: 250px;
+    }
+
+    .footer-banner-android {
+      position: absolute;
+      left: 10px;
+      top: 69px;
+      width: 81px;
+      height: 25px;
+      background-size: 81px;
+    }
+
+    .footer-banner-ios {
+      position: absolute;
+      left: 10px;
+      top: 107px;
+      width: 81px;
+      height: 25px;
+      background-size: 81px;
+    }
+  }
+
+  .footer-menu-resp {
+    display: block;
+  }
+
+}
+
+
+// mobile
+@media only screen and (max-width: 767px) {
+  .footer-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    padding: 28px 24px;
+  }
+  .footer-right-links-parent {
+    width: 100%;
+    ul {
+      width: 100%;
+    }
+  }
+  .footer-menu {
+    display: none;
+  }
+
+  .footer-resp {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+
+  
+  .footer-right-parent{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  
+  .footer-banner {
+    min-width: 270px;
+    width: 95% !important;
+    height: 155px;
+    position: relative;
+    border-radius: 14px;
+    margin-bottom: 19px;
+
+    .footer-banner-logo {
+      width: 150px;
+      height: 30px;
+      position: absolute;
+      top: 12px;
+      left: 13px;
+      background-size: 150px;
+    }
+
+    .footer-banner-phone {
+      width: 175px;
+      height: 135px;
+      right: 0;
+      position: absolute;
+      bottom: 0;
+      background-size: 250px;
+    }
+
+    .footer-banner-android {
+      position: absolute;
+      left: 10px;
+      top: 69px;
+      width: 81px;
+      height: 25px;
+      background-size: 81px;
+    }
+
+    .footer-banner-ios {
+      position: absolute;
+      left: 10px;
+      top: 107px;
+      width: 81px;
+      height: 25px;
+      background-size: 81px;
+    }
+  }
+
+  .footer-menu-resp {
+    display: block;
+  }
+}
+
+	
