@@ -1,10 +1,12 @@
-/*
-* Prefixed by:
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
+.product-wrapper {
+  width: 100%;
+}
 
+.product-parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 
 .product-image {
   position: relative;
@@ -24,8 +26,8 @@
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .product-heartIcon {
@@ -50,8 +52,7 @@
   margin-bottom: 15px;
   background: #ecf2f4;
   border: 1px solid #ecf2f4;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border-radius: 3px;
   font-family: Roboto;
   font-style: normal;

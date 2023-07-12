@@ -11,7 +11,7 @@ import { MarketInResponsive } from "../minimarket/components/marketInResponsive"
 
 export const ProductPage = () => {
   const param = useParams();
-  const [mydata, setmydata] = useState(null);
+  const [mydata, setmydata] = useState([]);
   const data = useSelector(newData);
 
   const objectResolver = (object) => {
@@ -40,12 +40,9 @@ export const ProductPage = () => {
   const products = arrayResolver(data);
 
   useEffect(() => {
-    const product = products.map((item) => item.id == param.id);
-    console.log(product);
-    setmydata([...mydata, ...product]);
+    const product = products.filter((item) => item.id == param.id);
+    setmydata([...product]);
   }, [param.id]);
-
-  // console.log(mydata)
 
   return (
     <div className="product-section">
@@ -60,7 +57,7 @@ export const ProductPage = () => {
         </div>
 
         <div className="product-page">
-          {/* <Product product={mydata} /> */}
+          <Product product={mydata} />
           <RightBasket />
         </div>
       </div>
