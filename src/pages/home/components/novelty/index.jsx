@@ -2,9 +2,12 @@ import "./styles.scss";
 import { useSelector } from "react-redux";
 import { ProductSLider } from "../productSlider";
 import { newData } from "../productSlider/productSliderSlice";
+import { useEffect } from "react";
+import { useState } from "react";
 
 export const Novelty = () => {
   const noveltyData = useSelector(newData);
+  const [products, setProducts] = useState([])
 
   const objectResolver = (object) => {
     const re = []
@@ -29,7 +32,10 @@ export const Novelty = () => {
     return re;
   }
 
-  const products = arrayResolver(noveltyData)
+  useEffect(()=> {
+    const data = arrayResolver(noveltyData).filter((item) => item.category === "novelty");
+    setProducts(data)
+  }, [])
 
   return (
     <div className="novelty-section">
@@ -40,7 +46,7 @@ export const Novelty = () => {
         </a>
       </div>
       <ProductSLider
-        data={products.filter((item) => item.category === "novelty")}
+        data={products}
       />
     </div>
   );

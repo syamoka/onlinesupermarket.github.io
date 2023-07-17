@@ -38,12 +38,11 @@ export const TopSale = () => {
       else re.push(...objectResolver(arrayElement));
     });
 
-    re.filter((item) => item.category === "topsale")
     return re;
   };
 
   useEffect(() => {
-    const data = arrayResolver(topsalestate);
+    const data = arrayResolver(topsalestate).filter((item) => item.category === "topsale")
     setProducts(data)
   }, []);
 
