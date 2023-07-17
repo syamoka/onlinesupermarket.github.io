@@ -2,6 +2,7 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import minimarketdata from "../../../../JSON/minimarket.json";
 import fourBanner from "../../../../JSON/fourBanner.json";
 import footerLinksdata from "../../../../JSON/footerLinks.json";
+import datas from "../../../../JSON/data.json"
 
 export const environment = {
   api_url: "../../../../JSON/data.json",
@@ -13,6 +14,7 @@ export const getData = createAsyncThunk("products/getData", async () => {
   });
   return response.json();
 });
+
 
 const initialState = {
   minimarketData: minimarketdata,

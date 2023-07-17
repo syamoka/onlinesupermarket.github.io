@@ -8,7 +8,7 @@ import { newData } from "../productSlider/productSliderSlice";
 
 export const Sidebar = () => {
   const sidebarList = useSelector(sidebardata);
-  const [isHovered, setIsHovered] = useState(null);
+  const [isHovered, setIsHovered] = useState({});
   const data = useSelector(newData)
 
   const objectResolver = (object) => {
@@ -50,12 +50,11 @@ export const Sidebar = () => {
                   }
                 }}
                 onMouseLeave={() => {
-                  // setTimeout(() => {
-                  //   if (isHovered === list) {
-                  //     setIsHovered(null);
-                  //   }
-                  // }, 3000);
-                  setIsHovered(null);
+                  setTimeout(() => {
+                    if (isHovered === list) {
+                      setIsHovered(null);
+                    }
+                  }, 3000);
                 }}
               >
                 <a href="#" id="sidebarLink">
@@ -69,8 +68,9 @@ export const Sidebar = () => {
                   </span>
                 )}
               </li>
-              {/* {isHovered && <SideBarPopUp />} */}
-              {/* {  console.log(isHovered)} */}
+              {/* {isHovered && <SideBarPopUp  />} */}
+              {/* {console.log(isHovered)} */}
+         
             </>
           );
         })}

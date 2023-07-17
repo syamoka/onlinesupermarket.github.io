@@ -3,7 +3,7 @@ import "./styles.scss";
 
 import { newData } from "../productSlider/productSliderSlice";
 import { ProductSLider } from "../productSlider";
-import { useMemo } from "react";
+import { useMemo, useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
 import { getData } from "../productSlider/productSliderSlice";
 import { useParams } from "react-router";
@@ -11,37 +11,41 @@ import { useParams } from "react-router";
 export const TopSale = () => {
   const topsalestate = useSelector(newData);
   const dispatch = useDispatch();
-  const param = useParams()
+  const param = useParams();
+  const [products, setProducts] = useState([])
 
   useMemo(() => {
     dispatch(getData());
   }, []);
 
   const objectResolver = (object) => {
-    const re = []
+    const re = [];
     for (const objectKey in object) {
-      const ref = object[objectKey]
+      const ref = object[objectKey];
 
-      if (Array.isArray(ref)) re.push(...ref)
-      else re.push(...objectResolver(ref))
+      if (Array.isArray(ref)) re.push(...ref);
+      else re.push(...objectResolver(ref));
     }
-  
-    return re
-  }
-  
+
+    return re;
+  };
+
   const arrayResolver = (array) => {
     const re = [];
-  
-    array.forEach(arrayElement => {
-      if (Array.isArray(arrayElement)) re.push(...arrayElement)
-      else re.push(...objectResolver(arrayElement))
+
+    array.forEach((arrayElement) => {
+      if (Array.isArray(arrayElement)) re.push(...arrayElement);
+      else re.push(...objectResolver(arrayElement));
     });
-     
+
+    re.filter((item) => item.category === "topsale")
     return re;
-  }
+  };
 
-  const products = arrayResolver(topsalestate)
-
+  useEffect(() => {
+    const data = arrayResolver(topsalestate);
+    setProducts(data)
+  }, []);
 
   return (
     <>
@@ -57,7 +61,7 @@ export const TopSale = () => {
         </div>
 
         <ProductSLider
-          data={products.filter((item) => item.category === "topsale")}
+          data={products}
         />
       </div>
     </>

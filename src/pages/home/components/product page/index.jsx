@@ -13,17 +13,22 @@ export const ProductPage = () => {
   const param = useParams();
   const [mydata, setmydata] = useState([]);
   const data = useSelector(newData);
-
+  
+ const keys = []
   const objectResolver = (object) => {
     const re = [];
+
     for (const objectKey in object) {
       const ref = object[objectKey];
-
+  
+       if(Object.keys(ref) != param.id || ref.id){
+        keys.push(Object.keys(ref))
+       }
       if (Array.isArray(ref)) re.push(...ref);
       else re.push(...objectResolver(ref));
     }
 
-    return re;
+    return re
   };
 
   const arrayResolver = (array) => {
@@ -36,8 +41,10 @@ export const ProductPage = () => {
 
     return re;
   };
-
+  
   const products = arrayResolver(data);
+console.log(keys)
+
 
   useEffect(() => {
     const product = products.filter((item) => item.id == param.id);

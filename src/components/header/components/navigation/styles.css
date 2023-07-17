@@ -1,86 +1,90 @@
 .navigation {
-  max-width: 1300px;
-  margin: 0 auto;
-  cursor: pointer;
-  background-color: #e8e9e9;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-pack: start;
+  justify-content: start;
   position: relative;
-  height: 50px;
-}
-
-.navigation .dropdown-icon-parent {
-  width: 50px;
-  height: 50px;
-  text-align: center;
+  margin-bottom: 20px;
   background-color: #ecf2f4;
-  cursor: pointer;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.navigation .dropdown-icon-parent:hover {
-  background-color: #056a36f3;
-}
-
-.navigation .dropdown-icon {
-  margin-top: 10px;
-}
-
-.navigation .nav-parent {
+  height: 50px;
   width: 100%;
 }
 
-.navigation .list-menu {
+.nav {
+  min-width: 1000px;
+  max-width: 1300px;
+  margin: 0 auto;
+  text-align: left;
+  min-height: 100%;
+  background: #fff;
+  position: static;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  width: 100% !important;
+}
+
+.list-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   max-width: 100%;
+  width: 100% !important;
   height: 50px;
-}
-
-.navigation .menu-item {
-  max-width: 100%;
   list-style: none;
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
-  text-align: center;
 }
 
-.navigation .menu-item:hover {
-  background-color: #056a36f3;
+.menu-item {
+  width: 100%;
+  cursor: pointer;
 }
 
-.navigation .menu-item:hover .menu-item-link {
-  max-width: 100%;
+.menu-item:hover {
+  opacity: 0.9;
+  -webkit-transition: ease #056a35 0.4s;
+  transition: ease #056a35 0.4s;
+  background-color: #056a35;
+}
+
+.menu-item:hover a {
   color: #fff;
 }
 
-.navigation .menu-item-link {
-  width: 100%;
-  text-decoration: none;
+.menu-item-link {
+  display: block;
   color: #191919;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
-  line-height: 45px;
+  line-height: 25px;
   padding: 12px 0;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.menu-item-link:hover {
+  background-color: #056a35;
+}
+
+@media only screen and (min-width: 1024px) {
+  .navigation {
+    display: block !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .navigation {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .navigation {
+    display: none !important;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

@@ -207,7 +207,37 @@
             "brand": "Philips",
             "productCode": 298936,
             "productID": 1311947,
-            "category": "save",
+            "category": "topsale",
+            "storageMethod": "Պահել մութ և չոր տեղում: 5-20 °C պայմաններում:"
+          },
+          {
+            "name": "Տորթ «Sweet ազնվամորու կոնֆիտյուրով»",
+            "id": "_1364361/",
+            "image": "https://supermarket.am/images/cache/7fe/40f/trim_d46130dccfd1940e051c5dca5ca87edb.JPG",
+            "price": 3850,
+            "count": 1,
+            "class": "Հացաբուլկեղեն / Տորթ",
+            "description": "Նախատեսված է 10 բաժնի համար, Խմոր – սպիտակ և շոկոլադե բիսկվիթ, Կրեմ – անգլիական,, Միջուկ – ազնվամորով կոնֆիտյոր, Պատվածք – գլազուրր",
+            "madeIn": "Չինաստան",
+            "brand": "Sweet",
+            "productCode": 300223,
+            "productID": 1364361,
+            "category": "topsale",
+            "storageMethod": "Պահել մութ և չոր տեղում: 5-20 °C պայմաններում:"
+          },
+          {
+            "name": "Տորթ «SՏորթ «Sweet» Բանան-ելակ",
+            "id": "_928772/",
+            "image": "https://supermarket.am/images/cache/4ad/e2e/trim_0408187b6258b709f429aa967d24079e.png",
+            "price": 2950,
+            "count": 1,
+            "class": "Հացաբուլկեղեն / Տորթ",
+            "description": "Նախատեսված է 8 բաժնի համար, Խմոր` սպիտակ բիսկվիթ, Կրեմ` խտացրած կաթ, Միջուկ` բանան և ելակի կոնֆիտյուր Ձևավորում` հատապտուղներ և սպիտակ շոկոլադի եզրաշերտ",
+            "madeIn": "Չինաստան",
+            "brand": "Sweet",
+            "productCode": 287409,
+            "productID": 928772,
+            "category": "topsale",
             "storageMethod": "Պահել մութ և չոր տեղում: 5-20 °C պայմաններում:"
           }
         ]

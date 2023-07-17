@@ -1,0 +1,36 @@
+.action-book {
+  width: 300px !important;
+  height: 70px;
+  line-height: 70px;
+  font-size: 25px;
+  padding: 0;
+  z-index: 5;
+  position: relative;
+  display: block;
+  border-radius: 4px;
+  background-color: #056a35;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.action-book:hover {
+  background-color: #056a36f1;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.action-book a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 25px;
+  padding: 0;
+  z-index: 5;
+  color: #ffffff;
+  opacity: 1;
+  width: 100%;
+}
+/*# sourceMappingURL=styles.css.map */

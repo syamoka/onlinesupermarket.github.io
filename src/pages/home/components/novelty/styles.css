@@ -1,15 +1,15 @@
 .novelty-section {
   width: 100%;
-  margin-top: 20px;
+  margin-top: 40px;
   text-align: center;
 }
 
 .novelty-section-title {
-  color: #ffc425;
   font-size: 21px;
   font-weight: bold;
   font-family: normal Arial, Helvetica, sans-serif;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .showAll {
@@ -18,5 +18,57 @@
   font-weight: bold;
   text-decoration: none;
   margin-top: -30px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .novelty-section-titles {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .novelty-section-title {
+    padding: 0 10px;
+    color: #000000;
+    text-transform: capitalize;
+    font-weight: normal;
+    font-size: 16px;
+  }
+  .showAll {
+    padding: 0 10px;
+    padding-top: 15px;
+    font-weight: normal;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .novelty-section-titles {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .novelty-section-title {
+    padding: 0 10px;
+    color: #000000;
+    text-transform: capitalize;
+    font-weight: normal;
+    font-size: 16px;
+  }
+  .showAll {
+    padding: 0 10px;
+    padding-top: 15px;
+    font-weight: normal;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,48 @@
+.basket-title-wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.basket-title-wraper .basket-title {
+  font-size: 37px;
+  font-weight: 500;
+  color: #000;
+  padding-bottom: 20px;
+  border: none;
+  padding-left: 10px;
+}
+
+.basket-title-wraper .delete-all-basket {
+  padding: 0 0 17px 0;
+  font-size: 18px;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 60px;
+}
+
+.basket-title-wraper .delete-all-basket a {
+  color: #7f7f7f;
+  border-bottom: 1px solid;
+  text-decoration: none;
+}
+
+.basket-title-wraper .delete-all-basket a:hover {
+  color: #056a35;
+}
+/*# sourceMappingURL=styles.css.map */

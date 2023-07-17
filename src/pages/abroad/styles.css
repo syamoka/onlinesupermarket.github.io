@@ -1,0 +1,24 @@
+.abroad-page .abroad-overflow {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+}
+
+.abroad-page .abroad-overflow .abroad-title {
+  font-size: 37px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  color: #000;
+  border-bottom: 1px solid #e4e4e4;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.abroad-page .abroad-overflow .abroad-text {
+  font-size: 14px;
+  text-align: justify;
+  margin-bottom: 0.0001pt;
+  line-height: normal;
+  color: #666666;
+}
+/*# sourceMappingURL=styles.css.map */

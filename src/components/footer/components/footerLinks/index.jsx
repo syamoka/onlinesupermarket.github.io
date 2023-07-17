@@ -118,9 +118,9 @@ export const FooterLinks = () => {
           <div className="footer-right-parent">
             {footerLinksRight.map((el) => {
               return (
-                <div className="footer-right-links-parent">
+                <div className="footer-right-links-parent" key={el.id}>
                   <div className="footer-right-links">
-                    <li className="footer-menu-phone" key={el.id}>
+                    <li className="footer-menu-phone" >
                       <span className="footer-my-contact">{el.title}</span>
                       <a href="tel:+37411555555" className="footer-links-phone">
                         {el.phone}

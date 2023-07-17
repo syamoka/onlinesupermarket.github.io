@@ -78,13 +78,13 @@ export const FourBanner = () => {
         <div className="marks-fix">
           {fourBanner.map((banner) => {
             return (
-              <>
+              <div key={banner.id}>
                 <a href="" className="mark">
                   <img src={banner.image} alt="" className="banner-image" />
                   <div className="bannerTitle">{banner.title}</div>
                 </a>
                 <div className="banner-title-in-resp">{banner.title}</div>
-              </>
+              </div>
             );
           })}
         </div>

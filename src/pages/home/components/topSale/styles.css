@@ -1,15 +1,15 @@
 .topSale-section {
   width: 100%;
-  margin-top: 20px;
+  margin-top: 40px;
   text-align: center;
 }
 
 .topSale-section .topSale-title {
-  color: #000000;
   font-size: 21px;
   font-weight: bold;
   font-family: normal Arial, Helvetica, sans-serif;
   text-align: center;
+  text-transform: uppercase;
   color: #ffc425;
 }
 
@@ -19,5 +19,63 @@
   font-weight: bold;
   text-decoration: none;
   margin-top: -30px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .topSale-titles {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .topSale-title {
+    padding: 0 10px;
+    color: #000000 !important;
+    font-size: 16px !important;
+    font-weight: normal !important;
+  }
+  .topSale-title span {
+    text-transform: lowercase !important;
+    margin-left: 5px;
+  }
+  .showAll {
+    padding: 0 10px;
+    padding-top: 15px;
+    font-weight: normal !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .topSale-titles {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .topSale-title {
+    padding: 0 10px;
+    color: #000000 !important;
+    font-size: 16px !important;
+    font-weight: normal !important;
+  }
+  .topSale-title span {
+    text-transform: lowercase !important;
+    margin-left: 5px;
+  }
+  .showAll {
+    padding: 0 10px;
+    padding-top: 15px;
+    font-weight: normal !important;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

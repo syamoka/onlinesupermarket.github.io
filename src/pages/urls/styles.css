@@ -1,0 +1,108 @@
+.urls {
+  max-width: 1300px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.urls .urls-parent {
+  min-width: 480px;
+  height: 30px;
+  color: #919191;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.urls .back-parent {
+  margin-right: 20px;
+}
+
+.urls .back {
+  text-decoration: none;
+  padding: 5px 15px 5px 28px;
+  font-size: 13px;
+  color: #a1a1a1;
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  background: url("https://supermarket.am/images/bread_left.svg") no-repeat 5px 3px;
+  cursor: pointer;
+}
+
+.urls .back:hover {
+  border: 1px solid #3d8247;
+  -webkit-transition: color 0.3s, background-color 0.3s;
+  transition: color 0.3s, background-color 0.3s;
+  color: #3d8247;
+}
+
+.urls .urls-link {
+  text-decoration: none;
+  margin-right: 5px;
+  color: #a1a1a1;
+  font-size: 13px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.urls .urls-link:hover {
+  -webkit-transition: color 0.3s, background-color 0.3s;
+  transition: color 0.3s, background-color 0.3s;
+  color: #3d8247;
+}
+
+.urls .favorite-link {
+  margin-top: 1px;
+  text-decoration: none;
+  line-height: 27px;
+  font-size: 13px;
+  border-color: #d7d7d7;
+  padding: 0 10px;
+  border-radius: 4px;
+  width: 160px;
+  height: 27px;
+  font-weight: 400;
+  border: 1px solid #919191;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.urls .favorite-link:hover {
+  border: 1px solid #3d8247;
+  -webkit-transition: color 0.3s, background-color 0.3s;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.urls .favorite-link strong {
+  color: #919191;
+  padding: 2px 13px 5px 30px;
+  background: url("https://supermarket.am/images/heart.svg") no-repeat;
+}
+
+.urls .favorite-link b {
+  color: #e36565;
+  font-size: 13px;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,41 @@
+.feedback-page {
+  width: 100%;
+}
+
+.feedback-page .feedback-overflow {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.feedback-page .feedback-overflow .feedback-title {
+  font-size: 37px;
+  font-weight: 500;
+  color: #000;
+  border-bottom: 1px solid #e4e4e4;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.feedback-page .feedback-overflow .feedback-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-top: -30px;
+}
+
+.feedback-page .feedback-overflow .feedback-texts {
+  margin-top: 20px;
+  color: #111111;
+  font-family: Tahoma;
+  font-size: large;
+  font-weight: bolder;
+  text-align: justify;
+  margin-left: 0.25in;
+  line-height: normal;
+}
+/*# sourceMappingURL=styles.css.map */

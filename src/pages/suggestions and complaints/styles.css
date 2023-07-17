@@ -1,0 +1,15 @@
+.suggestions-modal {
+  top: 300px;
+  z-index: 10;
+  width: 620px;
+  height: 520px;
+  padding: 10px;
+  border-radius: 4px;
+  background: #fff;
+  display: block;
+  float: left;
+  left: 50%;
+  margin: -210px 0 0 -282px;
+  position: fixed;
+}
+/*# sourceMappingURL=styles.css.map */

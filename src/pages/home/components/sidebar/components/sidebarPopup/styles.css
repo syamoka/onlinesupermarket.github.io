@@ -1,0 +1,51 @@
+.sidebar-sub-component {
+  position: absolute;
+  left: 300px;
+  width: 640px;
+  top: 50px;
+  background-color: #fff;
+  z-index: 3;
+  -webkit-box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-sub {
+  width: 100%;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sub-ul {
+  width: 288px;
+  text-align: left;
+  list-style: none;
+}
+
+.sub-li {
+  background: #f6f6f6;
+  font-size: 18;
+  margin-bottom: 10px;
+  width: 100%;
+  position: relative;
+  display: block;
+}
+
+.sub-li:hover {
+  background-color: #05311a;
+}
+
+.sub-li:hover .sub-alink {
+  color: #fff;
+}
+
+.sub-alink {
+  text-decoration: none;
+  color: #05311a;
+  padding: 10px 20px;
+  width: 100%;
+  display: inline-block;
+  font-weight: bold;
+}
+/*# sourceMappingURL=styles.css.map */

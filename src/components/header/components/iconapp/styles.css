@@ -1,24 +1,40 @@
 .icons-app {
-  max-width: 214px;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  width: 214px;
+  height: 38px;
   line-height: 38px;
-  cursor: pointer;
 }
 
 .icons-app .iconapp {
-  width: 100%;
+  color: #fff;
+  display: inline-block;
+  padding: 0 10px;
+  cursor: pointer;
 }
 
 .icons-app .iconapp:hover {
   background-color: #056a35;
+}
+
+.icons-app .iconapp img {
+  position: relative;
+  top: 5px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .icons-app {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .icons-app {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .icons-app {
+    display: none;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

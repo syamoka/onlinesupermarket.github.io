@@ -1,0 +1,80 @@
+/*
+* Prefixed by:
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+.market-in-resp {
+  width: 100%;
+  margin-top: 40px;
+  display: none;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.swiper-slide {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide img {
+  width: 100%;
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
+  border: none;
+}
+
+.swiper-item-img {
+  width: 100%;
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
+  border: none;
+}
+
+.swiper-button-next {
+  position: absolute;
+  right: 10px;
+  left: auto;
+  width: 20px;
+  height: 20px;
+}
+
+.swiper-button-next::after {
+  width: 20px;
+  height: 20px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.swiper-button-prev {
+  position: absolute;
+  right: auto;
+  left: 10;
+  width: 20px;
+  height: 20px;
+}
+
+.swiper-button-prev::after {
+  width: 20px;
+  height: 20px;
+  color: #ccc;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .market-in-resp {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .market-in-resp {
+    display: block;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

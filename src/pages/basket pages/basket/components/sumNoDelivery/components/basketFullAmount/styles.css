@@ -1,0 +1,99 @@
+.full-amount-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 17px;
+  line-height: 25px;
+  position: relative;
+  padding: 0;
+}
+
+.full-amount-container .order-amount-parent {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.full-amount-container .order-amount-parent .order-amount {
+  width: 175px;
+  text-align: left;
+  color: #828282;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.full-amount-container .order-amount-parent .order-amount-prc {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+  padding-top: 30px;
+}
+
+.full-amount-container .delivery-amount-parent {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.full-amount-container .delivery-amount-parent .delivery-amount {
+  width: 175px;
+  text-align: left;
+  color: #828282;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.full-amount-container .delivery-amount-parent .delivery-amount-prc {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000000;
+}
+
+.full-amount-container .full-amount-parent {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.full-amount-container .full-amount-parent .full-amount {
+  color: #828282;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.full-amount-container .full-amount-parent .full-amount-prc {
+  color: #cd2004;
+  font-size: 24px;
+  font-weight: 700;
+}
+/*# sourceMappingURL=styles.css.map */

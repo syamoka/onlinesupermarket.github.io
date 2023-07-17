@@ -1,0 +1,73 @@
+.responsive-banner {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  margin: 0 0 20px;
+}
+
+.resp-banner-parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -ms-flex-preferred-size: 100px;
+  flex-basis: 100px;
+  color: #000;
+  font-weight: 500;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  text-align: center;
+  font-size: 11px;
+}
+
+.resp-banner {
+  border: 1px solid #ebebeb;
+  width: 70px;
+  margin: 5px auto;
+  height: 70px;
+  padding: 10px;
+}
+
+.resp-banner-image {
+  width: 70px;
+}
+
+.responsive-banner {
+  display: none;
+}
+
+@media only screen and (min-width: 1024px) {
+  .responsive-banner {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .responsive-banner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 50px) and (max-width: 480px) {
+  .responsive-banner {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 92px 2;
+    grid-template-columns: repeat(2, 92px);
+  }
+}
+/*# sourceMappingURL=styles.css.map */

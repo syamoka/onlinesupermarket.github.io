@@ -1,0 +1,18 @@
+.favorite-page {
+  zoom: 1;
+  max-width: 1300px;
+  width: 100%;
+}
+
+.favorite-page .favorite-page-title {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  margin-bottom: 15px;
+  margin-top: 0;
+  color: #000;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 30px;
+}
+/*# sourceMappingURL=styles.css.map */
