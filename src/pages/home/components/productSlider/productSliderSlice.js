@@ -9,10 +9,8 @@ export const environment = {
 };
 
 export const getData = createAsyncThunk("products/getData", async () => {
-  const response = await fetch(environment.api_url, {
-    method: "GET",
-  });
-  return response.json();
+  const response = datas
+  return response
 });
 
 
